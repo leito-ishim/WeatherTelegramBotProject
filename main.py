@@ -78,23 +78,4 @@ if __name__ == "__main__":
 
 
 
-#
-# bot = Bot(token='7197808334:AAF5F4uuabrTC-2fROVtV8bgjAurOGvWv-4')
-# dp = Dispatcher()
-#
-#
-# @dp.message(commands=['start'])
-# async def start_command(message: types.Message):
-#     await message.reply('Привет! Напиши мне название города и я пришлю сводку погоды')
-#
-#
-# async def main():
-#     await dp.start_polling(bot)
-#
-#
-# # Press the green button in the gutter to run the script.
-# if __name__ == '__main__':
-#     # С помощью метода executor.start_polling опрашиваем
-#     # Dispatcher: ожидаем команду /start
-#     # executor.start_polling(dp)
-#     asyncio.run(main())
+
